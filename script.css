@@ -1,0 +1,23 @@
+.nameLabel{
+    margin-bottom: 10px;
+    display: block;
+}
+.nameDiv{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 10px;
+}
+thead th{
+    text-align: center;
+}
+tbody td{
+    text-align: center;
+}
+.formcontainer{
+    width:50%;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+}
