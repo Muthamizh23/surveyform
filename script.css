@@ -1,3 +1,6 @@
+body{
+    background-color:lightgrey;
+}
 .nameLabel{
     margin-bottom: 10px;
     display: block;
@@ -15,9 +18,26 @@ tbody td{
     text-align: center;
 }
 .formcontainer{
-    width:50%;
-    margin:0 auto;
+    
+    background-color: whitesmoke;
+    max-width: 800px;
+    height: 1300px;;
+    margin: 60px auto;
+    padding:40px;   
 }
 h1{
     text-align: center;
+}
+tbody{
+    line-height: 2;
+    background-color:lightgray;
+}
+thead{
+    line-height: 2;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .formcontainer{
+        width: 95%;
+    }
+    
 }
